@@ -1,0 +1,10 @@
+# Allow all search engines to crawl all pages
+User-agent: *
+Allow: /
+
+# Prevent crawling of build assets or dynamic node files (optional safety rules)
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Path to your XML sitemap
+Sitemap: https://yourdomain.com/sitemap.xml

@@ -1,0 +1,6 @@
+{
+  "name": "English Education Hub",
+  "description": "Comprehensive academic learning platform for Class 10, 11, and 12 English with lessons, video lectures, PDF notes, grammar quizzes, and announcements. Developed and maintained by MT Khan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

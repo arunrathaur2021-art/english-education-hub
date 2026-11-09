@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Education Hub - Class 10, 11 &amp; 12 Learning Portal</title>
+    <meta name="description" content="Master CBSE &amp; Board English for Class 10, 11, and 12 with comprehensive chapter notes, video lectures, grammar quizzes, and study resources. Developed and maintained by MT Khan." />
+    <meta name="keywords" content="English Education Hub, MT Khan, Class 10 English, Class 11 English, Class 12 English, CBSE English notes, English grammar quiz, NCERT solutions, Flamingo, First Flight, Hornbill" />
+    <meta name="author" content="MT Khan" />
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://yourdomain.com/" />
+    
+    <!-- OpenGraph Social Sharing -->
+    <meta property="og:title" content="English Education Hub - Class 10, 11 &amp; 12" />
+    <meta property="og:description" content="Complete digital study notes, video lectures, and interactive grammar quizzes for Class 10, 11 &amp; 12 English. Developed and maintained by MT Khan." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/" />
+    <meta property="og:site_name" content="English Education Hub" />
+    
+    <!-- Twitter Social Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="English Education Hub - Academic Portal by MT Khan" />
+    <meta name="twitter:description" content="Free chapter notes, video lessons, and grammar checks for high school English learners." />
+    
+    <!-- Fonts & Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD Educational Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "English Education Hub",
+      "url": "https://yourdomain.com/",
+      "description": "Comprehensive academic learning platform for Class 10, 11, and 12 English literature and grammar.",
+      "founder": {
+        "@type": "Person",
+        "name": "MT Khan"
+      },
+      "educationalCredentialAwarded": "Class 10, 11 & 12 Board Exam Mastery",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "English Courses",
+        "itemListElement": [
+          {
+            "@type": "Course",
+            "name": "Class 10 English Language & Literature",
+            "description": "NCERT First Flight, Footprints Without Feet, and Writing Skills"
+          },
+          {
+            "@type": "Course",
+            "name": "Class 11 English Core",
+            "description": "Hornbill, Snapshots, and Applied Grammar Masterclass"
+          },
+          {
+            "@type": "Course",
+            "name": "Class 12 English Core",
+            "description": "Flamingo, Vistas, and Advanced Composition"
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <!-- Prevent theme flash -->
+    <script>
+      (function() {
+        try {
+          const storedTheme = localStorage.getItem('eeh_theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          console.error('[Theme] Failed to read localStorage', e);
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen antialiased transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
